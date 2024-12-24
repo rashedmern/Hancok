@@ -1,0 +1,49 @@
+@media (min-width:320px) and (max-width:767px){
+    .navbar-toggler{
+        background-color: white;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background-color: #FF4655;
+        border-radius: 10px;
+    }
+    .navbar-nav{
+        gap: 10px;
+    }
+    .right_part ul{
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    #banner h2 {
+        padding-top: 150px;
+    }
+    #banner h1 {
+        font-size: 40px;
+       
+    }
+    #banner p {
+        width: auto;
+       
+    }
+    #banner ul{
+        padding-bottom: 80px;
+    }
+    #banner h1 span {
+        padding-left: 15px;
+    }
+    #banner ul {
+        padding-top: 130px;
+        padding-bottom: 50px;
+        
+    }   
+    #community h2 {
+        font-size: 30px;
+        width: auto;
+      
+    }
+    #community h2::after {
+        right: 133px;
+    }
+}

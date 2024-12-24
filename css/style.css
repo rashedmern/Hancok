@@ -14,7 +14,7 @@ body{
 }
 header{
     position:absolute ;
-    max-width: 1320px;
+    width: 100%;
 }
 ul{
     margin: 0;
@@ -42,7 +42,7 @@ header nav .right_part li span{
 /* NAVBAR END */
 /* BANNER PART START */
 #banner{
-    background:url(/images/banner1.png);
+    background:url(../images/banner1.png);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -687,7 +687,7 @@ header nav .right_part li span{
 }
 #professional #part2{
     margin-top: 29px;
-    margin-bottom: 74px;
+    padding-bottom: 74px;
 }
 #professional .all_images:hover{
     filter: grayscale(100%);
